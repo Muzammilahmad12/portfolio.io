@@ -38,12 +38,10 @@ CSRF_TRUSTED_ORIGINS = ['portfolioio-production.up.railway.app']
 
 CORS_REPLACE_HTTPS_REFERER = True
 
-CSRF_COOKIE_DOMAIN = 'bluemix.net'
+CSRF_COOKIE_DOMAIN = 'portfolioio-production.up.railway.app'
 
 CORS_ORIGIN_WHITELIST = (
     'portfolioio-production.up.railway.app',
-    'front.bluemix.net',
-    'bluemix.net',
 )
 
 
