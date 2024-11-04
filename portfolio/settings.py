@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['https://*muzammilahmad.up.railway.app','https://*34.32.135.56']
+CSRF_TRUSTED_ORIGINS = ['https://*muzammilahmad.up.railway.app','https://*34.32.135.56' , 'https://*muzammil.services']
 # Application definition
 
 INSTALLED_APPS = [
